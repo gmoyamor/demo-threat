@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "0.1",
+  "released_at": "2026-01-27",
+  "summary": {
+    "title": "Image System - STRIDE Threat Model",
+    "owner": "Gabriela Moya",
+    "description": "Web-based image management system that allows users to access the application through a web browser. The system provides user authentication/authorization and image verification and approval capabilities. Approved images are persisted in an image store. The threat model will use STRIDE to identify threats affecting the system components, data flows and trust boundaries.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 2,
+        "title": "Image System",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "DFD"
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "Training Exercise",
+    "threatTop": 0
+  }
+}
