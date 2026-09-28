@@ -820,7 +820,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": "block"
+                  "name": ""
                 },
                 "strokeDasharray": null
               }
@@ -837,7 +837,7 @@
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": true,
+              "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "HTTPS",
@@ -853,9 +853,15 @@
               "y": -87
             },
             "target": {
-              "x": -145,
-              "y": 13
-            }
+              "cell": "7c7111f9-00af-4f67-abd5-2108f7b68c5e",
+              "port": "fd04fb0e-cea2-42c8-bbb2-9938b07f12f7"
+            },
+            "vertices": [
+              {
+                "x": -110,
+                "y": -60
+              }
+            ]
           },
           {
             "position": {
@@ -902,6 +908,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -985,7 +992,6 @@
               ]
             },
             "id": "1f4c3dbe-c764-4e0a-ba3b-0876ab72e636",
-            "zIndex": 13,
             "data": {
               "type": "tm.Actor",
               "name": "ANONIMO",
@@ -1019,6 +1025,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1102,7 +1109,6 @@
               ]
             },
             "id": "0d36abc3-ebd8-43bd-bcfc-5d34bc36da9b",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador",
@@ -1117,8 +1123,8 @@
           },
           {
             "position": {
-              "x": -78,
-              "y": -120
+              "x": -58,
+              "y": -120.00000000000011
             },
             "size": {
               "width": 120,
@@ -1139,6 +1145,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1222,7 +1229,6 @@
               ]
             },
             "id": "7c7111f9-00af-4f67-abd5-2108f7b68c5e",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "Cloud Storage",
@@ -1238,6 +1244,53 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "0b43d605-ef4f-42ce-bc3b-0e1fe47ac6c6",
+            "source": {
+              "cell": "7c7111f9-00af-4f67-abd5-2108f7b68c5e",
+              "port": "fd04fb0e-cea2-42c8-bbb2-9938b07f12f7"
+            },
+            "target": {
+              "cell": "c2667e7d-7c76-49d3-b848-00b8f969434d",
+              "port": "f7d19505-b5ad-47ae-9f62-05bcda06de10"
+            },
+            "vertices": []
           }
         ],
         "description": "Users and External Storage"
