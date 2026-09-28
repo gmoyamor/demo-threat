@@ -13,7 +13,7 @@
     "diagrams": [
       {
         "id": 2,
-        "title": "Image System",
+        "title": "L0",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -451,10 +451,20 @@
             }
           }
         ],
-        "description": "DFD"
+        "description": "Image System - DFD"
+      },
+      {
+        "id": 3,
+        "title": "L1",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Users and External Storage"
       }
     ],
-    "diagramTop": 3,
+    "diagramTop": 4,
     "reviewer": "Training Exercise",
     "threatTop": 0
   }
